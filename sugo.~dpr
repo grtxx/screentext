@@ -1,0 +1,15 @@
+program sugo;
+
+uses
+  Forms,
+  feltolto in 'feltolto.pas' {OptionsWin},
+  dumagep in 'dumagep.pas',
+  futtato in 'futtato.pas' {RunWin};
+
+{$R *.RES}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TOptionsWin, OptionsWin);
+  Application.Run;
+end.

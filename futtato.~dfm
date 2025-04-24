@@ -1,0 +1,43 @@
+object RunWin: TRunWin
+  Left = 561
+  Top = 184
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'RunWin'
+  ClientHeight = 480
+  ClientWidth = 640
+  Color = clBtnFace
+  DefaultMonitor = dmDesktop
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poDefault
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Roll1: TRoll
+    Left = 0
+    Top = 0
+    Width = 640
+    Height = 480
+    Cursor = -1
+    MirrorX = True
+    MirrorY = False
+    EnableJoyControl = False
+    OnPositionChange = Roll1PositionChange
+    OnStatusChange = Roll1StatusChange
+    JoyCenter = 0
+    Style = False
+    WorkWidth = 640
+    WorkHeight = 0
+    JoyStatus = 0
+    MsgMode = False
+  end
+end
